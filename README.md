@@ -26,3 +26,16 @@ python app.py
 🔧 Iniciando Ferretec Backend...
 📁 Los datos se guardan en archivos .txt en la carpeta 'data/'
 🌐 API disponible en: http://localhost:5000
+
+
+
+
+
+git remote add origin https://github.com/JhojanR13/ferretec.git
+
+####
+git config --global --add safe.directory 'E:/DSI-III/POO/POO PYTHON/ferretec-backend'
+
+
+git push -u origin main
+git branch # ver rama principal
