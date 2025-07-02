@@ -39,3 +39,10 @@ git config --global --add safe.directory 'E:/DSI-III/POO/POO PYTHON/ferretec-bac
 
 git push -u origin main
 git branch # ver rama principal
+
+#Hacer un commint
+git add .
+git commit -m "mensaje del commint"
+
+########
+git push origin master
