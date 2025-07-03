@@ -46,15 +46,34 @@ git config --global --add safe.directory 'E:/DSI-III/POO/POO PYTHON/ferretec-bac
 git push -u origin main
 git branch # ver rama principal
 
-#Hacer un commint
-git add .
-git commit -m "mensaje del commint"
-
-########
-git push origin master
 
 
-#iniciando rama desarrollo
+#LEAN  A PARTIR DE AQUíÍ
+
+
+#rama desarrollo para usarla
+
+#Jhojan
 git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-jhojan
+#Renso
+git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-renso
+#sham
+git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-sham
+
+#Trabajar y subir cambios
+#Cada uno trabaja en su rama. Cuando quiere guardar avances en GitHub:
 git add .
-git commit -m "Agrego el formulario de login"
+git commit -m "Tu mensaje claro de cambios"
+git push origin feature/modificaciones-de-[nombre]
+
+#Siempre actualizar antes de trabajar    <------ IMPORTANTE!!!!!!!!!
+#Cada día (o antes de comenzar a trabajar), todos deben hacer esto:
+git checkout desarrollo
+git pull origin desarrollo
+#Así tienen el código más actualizado.
