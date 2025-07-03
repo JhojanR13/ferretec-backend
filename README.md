@@ -55,6 +55,31 @@ git push origin master
 
 
 #iniciando rama desarrollo
-git checkout desarrollo
+git checkout desarrollogit add .
 git add .
-git commit -m "Agrego el formulario de login"
+git commit -m "Nueva Rama Desarrollo"
+
+
+#rama desarrollo para usarla
+git checkout desarrollo   # entrar a la rama desarrollo
+git pull origin desarrollo  # descargar y fusionar archivos desde Github hacia tu PC
+
+
+#Jhojan
+git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-jhojan
+#Renso
+git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-renso
+#sham
+git checkout desarrollo
+git pull origin desarrollo
+git checkout -b feature/modificaciones-de-sham
+
+#Trabajar y subir cambios
+#Cada uno trabaja en su rama. Cuando quiere guardar avances en GitHub:
+git add .
+git commit -m "Tu mensaje claro de cambios"
+git push origin feature/modificaciones-de-[nombre]
