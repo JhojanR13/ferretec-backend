@@ -46,24 +46,12 @@ git config --global --add safe.directory 'E:/DSI-III/POO/POO PYTHON/ferretec-bac
 git push -u origin main
 git branch # ver rama principal
 
-#Hacer un commint
-git add .
-git commit -m "mensaje del commint"
-
-########
-git push origin master
 
 
-#iniciando rama desarrollo
-git checkout desarrollogit add .
-git add .
-git commit -m "Nueva Rama Desarrollo"
+#LEAN  A PARTIR DE AQUíÍ
 
 
 #rama desarrollo para usarla
-git checkout desarrollo   # entrar a la rama desarrollo
-git pull origin desarrollo  # descargar y fusionar archivos desde Github hacia tu PC
-
 
 #Jhojan
 git checkout desarrollo
@@ -83,3 +71,9 @@ git checkout -b feature/modificaciones-de-sham
 git add .
 git commit -m "Tu mensaje claro de cambios"
 git push origin feature/modificaciones-de-[nombre]
+
+#Siempre actualizar antes de trabajar    <------ IMPORTANTE!!!!!!!!!
+#Cada día (o antes de comenzar a trabajar), todos deben hacer esto:
+git checkout desarrollo
+git pull origin desarrollo
+#Así tienen el código más actualizado.
